@@ -1,12 +1,17 @@
-body {
+/* /* body {
     margin: 0;
-    background-color: rgb(4, 0, 22);
-}
+    background-color: rgb(252, 252, 252);
+} */
 
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
 .flex-container {
     height: calc(100% - 150px);
     width: 100%;
-    /* margin: 0 auto; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -37,4 +42,4 @@ body {
     bottom: 0px;
     width: 100%;
     height: auto;
-}
+} */
